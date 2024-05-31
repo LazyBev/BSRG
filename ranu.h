@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 // Seeds Random Number Generator
-void sera(int e);
+void sera(int E);
 
 // Generates Random Number
-int ranu(int u, bool allow);
+int ranu(int E, bool allow);
