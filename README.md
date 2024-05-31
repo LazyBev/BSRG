@@ -1,2 +1,2 @@
 # SecureRandomGenerator
-Generates Randomer Numbers (Better than sys/random.h)
+Library for random generator (Better than sys/random.h)
