@@ -1,6 +1,6 @@
 #include "ranu.h"
 
-// "int e" is a modifer to add more entropy to the generation of the number 
+// "int e" (e for entropy) adds entropy to the generation of the number 
 void sera(int e) { srand(e * (time(NULL) * getpid())); }
 
 // "int u" is a modifer to add more entropy to the generation of the number 
