@@ -1,4 +1,4 @@
-#include "ranNum.h"
+#include "ranu.h"
 
 void sera(int e) { srand(e * (time(NULL) * getpid())); }
 
