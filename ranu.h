@@ -6,5 +6,8 @@
 #include <time.h>
 #include <unistd.h>
 
+// Seeds Random Number Generator
 void sera(int e);
+
+// Generates Random Number
 int ranu(int u, bool allow);
