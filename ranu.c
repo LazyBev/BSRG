@@ -1,7 +1,9 @@
 #include "ranu.h"
 
+// Seeds Random Number Generator
 void sera(int e) { srand(e * (time(NULL) * getpid())); }
 
+// Generates Random Number
 int ranu(int u, bool allow) {
   sera(7);
   float B = rand() * u;
