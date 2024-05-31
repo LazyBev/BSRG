@@ -3,11 +3,6 @@
 #ifndef BOTTLE_H
 #define BOTTLE_H
 
-#define D_MODULUS 7
-#define D_MULTIPLIER 4
-#define D_INCREMENT 5
-#define D_SEED 1
-
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h> 
